@@ -10,7 +10,6 @@ class Solution {
         }
         return i == bits.length - 1;
     }
-
     public static void main(String[] args) {
         Solution sol = new Solution();
         System.out.println(sol.isOneBitCharacter(new int[]{1,0,0}));  
