@@ -1,6 +1,5 @@
 import java.util.*;
-
-class problem1{
+class problem01{
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         int len = s.nextInt();
@@ -13,7 +12,6 @@ class problem1{
         int[] result = twoSum(nums, target);
         System.out.println("Output: [" + result[0] + ", " + result[1] + "]");
     }
-
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>(); // value -> index
         for(int i = 0; i < nums.length; i++) {
