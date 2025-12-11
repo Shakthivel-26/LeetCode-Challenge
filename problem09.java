@@ -1,4 +1,4 @@
-public class problem9{
+public class problem09{
     public int searchInsert(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
